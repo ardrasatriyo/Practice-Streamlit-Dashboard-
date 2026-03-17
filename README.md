@@ -14,9 +14,6 @@ Analysis scripts are located under the DataAnalysis folder.
 
 Data files are stored under the Data folder.
 
-Example structure:
-
-text
 Data/
     dataset.csv
 
@@ -24,7 +21,9 @@ DataAnalysis/
     analyze.py
 
 Dashboard/
-    app.py (Streamlit dashboard)
+    app.py   # Streamlit dashboard
+
+
 The dashboard (Dashboard/app.py) reads processed data or directly performs lightweight analysis, then displays charts, tables, filters, and interactive widgets for exploration.
 
 Getting Started
